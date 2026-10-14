@@ -1,0 +1,9 @@
+terminal dois etre ubuntu(WSL)
+install wsl
+sudo apt update && sudo apt install build-essential -y
+(mots de passe)
+
+
+gcc -Wall -Wextra -Werror -g3 -fsanitize=address my_ls.c -o my_ls
+
+./my_ls
